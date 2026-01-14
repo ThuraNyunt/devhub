@@ -10,3 +10,8 @@ Pods
 node_modules/
 npm-debug.log
 yarn-error.log
+
+# Google Cloud Service Account credentials
+*firebase*credentials*.json
+*gserviceaccount*.json
+*-firebase-crashreporting-*.json
