@@ -10,3 +10,13 @@ Pods
 node_modules/
 npm-debug.log
 yarn-error.log
+
+# Security: Prevent committing sensitive credential files
+# Note: GoogleService-Info.plist is allowed as it's a standard Firebase config
+**/google-services.json
+**/*-firebase-*.json
+**/*.key
+**/*.pem
+.env
+.env.local
+.env.*.local
